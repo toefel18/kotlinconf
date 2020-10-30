@@ -26,7 +26,7 @@ class App : RComponent<RProps, AppState>() {
     override fun AppState.init() {
         unwatchedVideos = listOf(
             Video(1, "Building and breaking things", "John Doe", "https://youtu.be/PsaFVLr8t4E"),
-            Video(2, "The development process", "Jane Smith", "https://youtu.be/PsaFVLr8t4E"),
+            Video(2, "The development process", "Jane Smith", "https://www.youtube.com/watch?v=R425cc6XrvA"),
             Video(3, "The Web 7.0", "Matt Miller", "https://youtu.be/PsaFVLr8t4E")
         )
         watchedVideos = listOf(
